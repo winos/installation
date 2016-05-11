@@ -1,5 +1,7 @@
 # Nginx
 
+**version:** 1.10.0
+
 ## Dependencies
 Install the [nginx signing.key](http://nginx.org/keys/nginx_signing.key)
 ```
@@ -22,5 +24,16 @@ $ deb-src http://nginx.org/packages/ubuntu/ codename nginx
 $ apt-get update
 $ apt-get install nginx
 ```
+
+## Problem solving
+**403 Forbidden**
+
+Set 755 permissions from your FTP client to the affected directory.
+```
+$ chmod 755 /path/of/your/directory/ -v
+// or if the issue is for any file:
+$ chmod 644 /path/of/your/directory/filename.ext -v
+
+ ```
 
 [read more](http://nginx.org/en/linux_packages.html#stable)
