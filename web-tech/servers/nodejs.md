@@ -27,3 +27,5 @@ $ tar -C /usr/local --strip-components 1 -xJf node-v4.4.4-linux.x64.tar.xz
 $ ls -l /usr/local/bin/node
 $ node -v
 ```
+
+[read more](http://www.hostingadvice.com/how-to/install-nodejs-ubuntu-14-04/)
