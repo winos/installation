@@ -8,7 +8,7 @@ $ sudo apt-key add nginx_signing.key
 
 ## Installation instructions
 
-For Debian replace codename with Debian distribution codename, and append the following to the end of the /etc/apt/sources.list file:
+For Ubuntu replace codename with Ubuntu distribution codename, and append the following to the end of the /etc/apt/sources.list file:
 
 ```
 $ deb http://nginx.org/packages/ubuntu/ codename nginx
