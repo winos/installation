@@ -24,6 +24,7 @@ $ deb-src http://nginx.org/packages/ubuntu/ codename nginx
 $ apt-get update
 $ apt-get install nginx
 ```
+[read more](http://nginx.org/en/linux_packages.html#stable)
 
 ## Problem solving
 **403 Forbidden**
@@ -35,5 +36,4 @@ $ chmod 755 /path/of/your/directory/ -v
 $ chmod 644 /path/of/your/directory/filename.ext -v
 
  ```
-
-[read more](http://nginx.org/en/linux_packages.html#stable)
+[read more](https://www.scalescale.com/tips/nginx/403-forbidden-nginx/)
