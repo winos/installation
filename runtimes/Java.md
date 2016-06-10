@@ -29,3 +29,5 @@ export PATH
 ```
 $ java -version
 ```
+
+[read more](http://es.wikihow.com/instalar-Oracle-Java-JDK-en-Ubuntu-Linux)
