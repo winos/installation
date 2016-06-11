@@ -24,6 +24,9 @@ export JAVA_HOME
 export PATH
 ```
 > Note: Restart for changes to take effect
+```
+$ sudo source /etc/environment
+```
 
 ## Check the install
 ```
