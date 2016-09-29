@@ -26,6 +26,36 @@ $ apt-get install nginx
 ```
 [read more](http://nginx.org/en/linux_packages.html#stable)
 
+
+## Compile from source
+1. Download the source code
+2. Configure: 
+
+```
+$ cd nginx
+$ ./auto/configure  \
+   --user=nginx     \
+   --group=nginx    \
+   --prefix=/etc/nginx  \
+   --sbin-path=/usr/sbin/nginx  \
+   --conf-path=/etc/nginx/nginx.conf  \
+   --pid-path=/var/run/nginx.pid  \
+   --lock-path=/var/run/nginx.lock  \
+   --error-log-path=/var/log/nginx/error.log  \
+   --http-log-path=/var/log/nginx/access.log  \
+   --with-http_gzip_static_module      \
+   --with-http_stub_status_module    \
+   --with-http_ssl_module      \
+   --with-pcre  \
+   --with-http_realip_module   \
+   --without-http_scgi_module   \ 
+   --without-http_uwsgi_module   \
+   --without-http_fastcgi_module
+$ make
+$ sudo make install 
+```
+[about configuration](http://nginx.org/en/docs/configure.html)
+
 ## Problem solving
 **403 Forbidden**
 
