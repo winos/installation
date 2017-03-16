@@ -21,7 +21,7 @@ $ wget https://nodejs.org/dist/v4.4.4/node-v4.4.4-linux-x64.tar.xz
 $ tar -C /usr/local --strip-components 1 -xJf node-v4.4.4-linux.x64.tar.xz
 ```
 
-## CHeck your installation
+## Check your installation
 
 ```
 $ ls -l /usr/local/bin/node
