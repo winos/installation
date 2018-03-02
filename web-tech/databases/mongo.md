@@ -1,5 +1,8 @@
 # Mongo
 
+# System
+- Ubuntu 16.04
+
 # Dependencies
 this version has been compiled with SSL enabled and dynamically linked.
 This requires that SSL libraries be installed seperately.
