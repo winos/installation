@@ -44,7 +44,7 @@ $ mongo
 ## Crete user / remote
 ```
 $ ./mongo
-> use cool_db
+> use world
 
 > db.createUser({
     user: 'test',
