@@ -17,8 +17,8 @@ x86_64
 
 download the stable version in this case we will download node for Linux (x64)
 ```
-$ wget https://nodejs.org/dist/v4.4.4/node-v4.4.4-linux-x64.tar.xz
-$ tar -C /usr/local --strip-components 1 -xJf node-v4.4.4-linux.x64.tar.xz
+$ wget https://nodejs.org/dist/v8.11.2/node-v8.11.2-linux-x64.tar.xz
+$ tar -C /usr/local --strip-components 1 -xJf node-v8.11.2-linux-x64.tar.xz
 ```
 
 ## Check your installation
