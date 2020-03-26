@@ -1,3 +1,5 @@
+Version: 3.4.2
+
 # 1. Generate the backup
 mongodump -d [db-name] -o ~/path/backup/
 
